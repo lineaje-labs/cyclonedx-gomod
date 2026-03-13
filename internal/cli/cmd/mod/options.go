@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	cdx "github.com/CycloneDX/cyclonedx-go"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/cli/options"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/cli/options"
 )
 
 type Options struct {

@@ -25,11 +25,11 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"github.com/peterbourgon/ff/v3/ffcli"
 
-	cliUtil "github.com/CycloneDX/cyclonedx-gomod/internal/cli/util"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/sbom"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/generate/mod"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect/local"
+	cliUtil "github.com/lineaje-labs/cyclonedx-gomod/internal/cli/util"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/sbom"
+	"github.com/lineaje-labs/cyclonedx-gomod/pkg/generate/mod"
+	"github.com/lineaje-labs/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/lineaje-labs/cyclonedx-gomod/pkg/licensedetect/local"
 )
 
 func New() *ffcli.Command {

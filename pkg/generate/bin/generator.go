@@ -28,11 +28,11 @@ import (
 	"github.com/rs/zerolog/log"
 	"golang.org/x/mod/module"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/sbom"
-	modConv "github.com/CycloneDX/cyclonedx-gomod/internal/sbom/convert/module"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/generate"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gomod"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/sbom"
+	modConv "github.com/lineaje-labs/cyclonedx-gomod/internal/sbom/convert/module"
+	"github.com/lineaje-labs/cyclonedx-gomod/pkg/generate"
+	"github.com/lineaje-labs/cyclonedx-gomod/pkg/licensedetect"
 )
 
 type generator struct {

@@ -25,7 +25,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gocmd"
 )
 
 // FilterModules queries `go mod why` with all provided modules to determine whether or not

@@ -1,4 +1,4 @@
-module github.com/CycloneDX/cyclonedx-gomod
+module github.com/lineaje-labs/cyclonedx-gomod
 
 go 1.25
 

@@ -23,7 +23,7 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/cli/options"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/cli/options"
 )
 
 func TestModOptions_Validate(t *testing.T) {

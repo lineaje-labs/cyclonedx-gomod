@@ -74,7 +74,7 @@ func TestListModule(t *testing.T) {
 	mod := make(map[string]interface{})
 	require.NoError(t, json.NewDecoder(buf).Decode(&mod))
 
-	require.Equal(t, "github.com/CycloneDX/cyclonedx-gomod", mod["Path"])
+	require.Equal(t, "github.com/lineaje-labs/cyclonedx-gomod", mod["Path"])
 	assert.Equal(t, true, mod["Main"])
 }
 
@@ -87,7 +87,7 @@ func TestListModules(t *testing.T) {
 	require.NoError(t, json.NewDecoder(buf).Decode(&mod))
 
 	// Smoke test - is this really the module list?
-	assert.Equal(t, "github.com/CycloneDX/cyclonedx-gomod", mod["Path"])
+	assert.Equal(t, "github.com/lineaje-labs/cyclonedx-gomod", mod["Path"])
 	assert.Equal(t, true, mod["Main"])
 }
 
@@ -96,7 +96,7 @@ func TestGetModuleGraph(t *testing.T) {
 	err := GetModuleGraph(zerolog.Nop(), "../../", buf)
 	require.NoError(t, err)
 
-	assert.Equal(t, 0, strings.Index(buf.String(), "github.com/CycloneDX/cyclonedx-gomod"))
+	assert.Equal(t, 0, strings.Index(buf.String(), "github.com/lineaje-labs/cyclonedx-gomod"))
 }
 
 func TestModWhy(t *testing.T) {
@@ -105,7 +105,7 @@ func TestModWhy(t *testing.T) {
 	require.NoError(t, err)
 
 	require.Equal(t, `# github.com/CycloneDX/cyclonedx-go
-github.com/CycloneDX/cyclonedx-gomod/internal/cli/cmd/mod
+github.com/lineaje-labs/cyclonedx-gomod/internal/cli/cmd/mod
 github.com/CycloneDX/cyclonedx-go
 `, buf.String())
 }

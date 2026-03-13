@@ -24,8 +24,8 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
-	fileConv "github.com/CycloneDX/cyclonedx-gomod/internal/sbom/convert/file"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gomod"
+	fileConv "github.com/lineaje-labs/cyclonedx-gomod/internal/sbom/convert/file"
 )
 
 type Option func(zerolog.Logger, gomod.Package, gomod.Module, *cdx.Component) error

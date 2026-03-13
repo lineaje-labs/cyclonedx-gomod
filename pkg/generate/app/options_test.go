@@ -24,7 +24,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect/local"
+	"github.com/lineaje-labs/cyclonedx-gomod/pkg/licensedetect/local"
 )
 
 func TestWithIncludeFiles(t *testing.T) {

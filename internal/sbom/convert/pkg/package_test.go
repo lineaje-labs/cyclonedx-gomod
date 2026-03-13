@@ -23,7 +23,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gomod"
 )
 
 func TestToComponent(t *testing.T) {
