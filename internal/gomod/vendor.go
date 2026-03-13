@@ -29,8 +29,8 @@ import (
 	"github.com/rs/zerolog"
 	"golang.org/x/exp/slices"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/util"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gocmd"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/util"
 )
 
 // IsVendoring determines whether of not the module at moduleDir is vendoring its dependencies.

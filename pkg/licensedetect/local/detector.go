@@ -28,7 +28,7 @@ import (
 	"github.com/go-enry/go-license-detector/v4/licensedb/filer"
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/lineaje-labs/cyclonedx-gomod/pkg/licensedetect"
 )
 
 const minDetectionConfidence = 0.85

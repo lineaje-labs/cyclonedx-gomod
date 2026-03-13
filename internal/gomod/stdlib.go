@@ -23,7 +23,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gocmd"
 )
 
 // StdlibModulePath defines the path used for Go's standard library module.

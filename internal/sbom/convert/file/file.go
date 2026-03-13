@@ -25,8 +25,8 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/sbom"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gomod"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/sbom"
 )
 
 type Option func(logger zerolog.Logger, absFilePath, relFilePath string, component *cdx.Component) error

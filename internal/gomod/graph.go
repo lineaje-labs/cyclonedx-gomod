@@ -28,7 +28,7 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/mod/semver"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gocmd"
 )
 
 func ApplyModuleGraph(logger zerolog.Logger, moduleDir string, modules []Module) error {

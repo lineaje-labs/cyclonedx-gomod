@@ -30,8 +30,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gocmd"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gomod"
 )
 
 type stubLicenseDetector struct {

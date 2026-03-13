@@ -21,10 +21,10 @@ import (
 	"context"
 	"flag"
 
-	appCmd "github.com/CycloneDX/cyclonedx-gomod/internal/cli/cmd/app"
-	binCmd "github.com/CycloneDX/cyclonedx-gomod/internal/cli/cmd/bin"
-	modCmd "github.com/CycloneDX/cyclonedx-gomod/internal/cli/cmd/mod"
-	versionCmd "github.com/CycloneDX/cyclonedx-gomod/internal/cli/cmd/version"
+	appCmd "github.com/lineaje-labs/cyclonedx-gomod/internal/cli/cmd/app"
+	binCmd "github.com/lineaje-labs/cyclonedx-gomod/internal/cli/cmd/bin"
+	modCmd "github.com/lineaje-labs/cyclonedx-gomod/internal/cli/cmd/mod"
+	versionCmd "github.com/lineaje-labs/cyclonedx-gomod/internal/cli/cmd/version"
 	"github.com/peterbourgon/ff/v3/ffcli"
 )
 

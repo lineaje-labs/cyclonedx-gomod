@@ -26,9 +26,9 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/cli/options"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/util"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/cli/options"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/gomod"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/util"
 )
 
 type Options struct {

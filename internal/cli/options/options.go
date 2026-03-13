@@ -29,7 +29,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/util"
+	"github.com/lineaje-labs/cyclonedx-gomod/internal/util"
 )
 
 // ValidationError represents a validation error for options.
