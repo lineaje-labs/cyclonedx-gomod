@@ -1,6 +1,6 @@
 module github.com/lineaje-labs/cyclonedx-gomod
 
-go 1.25
+go 1.25.9
 
 require (
 	github.com/CycloneDX/cyclonedx-go v0.9.3
