@@ -1,12 +1,12 @@
 module github.com/lineaje-labs/cyclonedx-gomod
 
-go 1.25.12
+go 1.26.8
 
 require (
 	github.com/CycloneDX/cyclonedx-go v0.9.3
 	github.com/bradleyjkemp/cupaloy/v2 v2.8.0
 	github.com/go-enry/go-license-detector/v4 v4.3.0
-	github.com/go-git/go-git/v5 v5.19.0
+	github.com/go-git/go-git/v5 v5.19.2
 	github.com/google/uuid v1.6.0
 	github.com/package-url/packageurl-go v0.1.3
 	github.com/peterbourgon/ff/v3 v3.4.0
@@ -14,9 +14,9 @@ require (
 	github.com/rs/zerolog v1.34.0
 	github.com/stretchr/testify v1.11.1
 	github.com/xeipuuv/gojsonschema v1.2.0
-	golang.org/x/crypto v0.52.0
+	golang.org/x/crypto v0.56.0
 	golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f
-	golang.org/x/mod v0.35.0
+	golang.org/x/mod v0.38.0
 )
 
 require (
@@ -50,9 +50,9 @@ require (
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
-	golang.org/x/net v0.54.0 // indirect
-	golang.org/x/sys v0.45.0 // indirect
-	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/net v0.57.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
 	gonum.org/v1/gonum v0.7.0 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.6 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
